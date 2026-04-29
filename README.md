@@ -1,53 +1,49 @@
 
+---
 
-⚽ Football Dashboard Pro (BETA)
-Football Dashboard Pro est une application de bureau légère conçue pour suivre les scores de football en temps réel à travers de nombreuses ligues mondiales. Cette version BETA permet de filtrer rapidement les matchs et de visualiser les scores en direct.
-<img width="1110" height="740" alt="image" src="https://github.com/user-attachments/assets/f3a27da4-9da5-442d-a34c-85239748523b" />
+# ⚽ Football Dashboard Pro (BETA)
 
-📸 Aperçu
-L'interface propose une recherche par équipe et un tableau récapitulatif incluant :
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-red)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![API](https://img.shields.io/badge/API-Football--API-orange)
 
-Ligue : Nom de la compétition (UEFA, National League, etc.).
+**Football Dashboard Pro** est une application de bureau légère conçue pour suivre les scores de football en temps réel à travers de nombreuses ligues mondiales.Cette version permet de filtrer rapidement les matchs et de visualiser les scores en direct grâce à une interface optimisée.
 
-Match : Confrontation entre les deux équipes.
+## 🌟 Fonctionnalités Clés
 
-Score : Résultats en temps réel.
+* **Suivi en Temps Réel :** Affichage instantané de la ligue, des équipes, du score et du temps écoulé[cite: 3, 5].
+* **Recherche Dynamique :** Filtrage intelligent par équipe ou par compétition directement depuis la barre de recherche[cite: 3, 5].
+* **Couverture Mondiale :** Accès aux données de nombreuses ligues internationales via API-Football[cite: 3, 5].
+* **Interface Graphique (GUI) :** Design sombre (Dark Mode) moderne construit avec **Tkinter** et **ttk**[cite: 3, 5].
 
-Temps : Chronomètre du match en cours.
+## 🛡️ Sécurité & Robustesse
 
-<img width="1370" height="818" alt="image" src="https://github.com/user-attachments/assets/48855a02-03f7-48de-9f86-b8ad8790548a" />
+* **Filtrage Instantané :** Utilisation de la méthode `trace_add` pour mettre à jour le tableau en temps réel dès la saisie de texte[cite: 5].
+* **Gestion des Requêtes :** Intégration de la bibliothèque **Requests** pour une communication fluide avec l'API externe[cite: 5].
+* **Optimisation des Données :** Stockage local temporaire des matchs pour permettre un filtrage rapide sans multiplier les appels API[cite: 5].
 
+## 🚀 Installation rapide
 
-🚀 Installation & Prérequis
-1. Clé API
-Pour faire fonctionner l'application, vous devez posséder un compte sur API-Football.
+1.  **Récupérer le code :**
+    ```bash
+    git clone https://github.com/anasbouta/Projet-Perso.git
+    ```
+2.  **Configuration de la clé API :**
+    * Obtenez un compte sur [www.api-football.com](https://www.api-football.com).
+    * Ouvrez `Football score.py` et remplacez `"ENTRER_API_ICI"` par votre clé personnelle.
+3.  **Lancement :**
+    ```bash
+    python "Football score.py"
+    ```
+OU :
 
-Créez un compte.
+<a href="[https://github.com/anasbouta/Projet-Perso/archive/refs/heads/main.zip](https://github.com/anasbouta/Projet-Perso/archive/refs/heads/main.zip)">Télécharger tout le projet ici</a> et extraire le fichier "Football score.py".
 
-Récupérez votre clé API dans votre tableau de bord.
+*Note : Il faut avoir un compte api-football pour que l'application fonctionne.*
 
-Configurez-la dans l'application (voir fichier de configuration ou .env).
+## ⚖️ Licence
 
-2. Téléchargement
-Téléchargez la dernière version dans la section Releases :
+Ce projet est distribué sous la licence **Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)**[cite: 4, 6].
+*Copyright (c) 2026 Anas Boutaghroucht.
 
-Source code (zip)
-
-Source code (tar.gz)
-
-🛠️ Utilisation
-Lancez l'application.
-
-Entrez le nom (ou les premières lettres) d'une équipe dans la barre "Rechercher équipe".
-
-Cliquez sur le bouton ACTUALISER pour mettre à jour les scores en direct.
-
-⚖️ Licence & Conditions
-[!IMPORTANT]
-Veuillez lire le fichier LICENCE inclus dans ce dépôt avant toute utilisation, modification ou distribution du code. Ne faites pas "n'importe quoi" avec le projet !
-
-👨‍💻 Développeur
-anasbouta - Profil GitHub
-
-Copyright © Anas Boutagroucht 
-License:CC BY-NC 4.0
+---
