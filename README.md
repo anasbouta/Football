@@ -11,16 +11,16 @@
 
 ## 🌟 Fonctionnalités Clés
 
-* **Suivi en Temps Réel :** Affichage instantané de la ligue, des équipes, du score et du temps écoulé[cite: 3, 5].
-* **Recherche Dynamique :** Filtrage intelligent par équipe ou par compétition directement depuis la barre de recherche[cite: 3, 5].
-* **Couverture Mondiale :** Accès aux données de nombreuses ligues internationales via API-Football[cite: 3, 5].
-* **Interface Graphique (GUI) :** Design sombre (Dark Mode) moderne construit avec **Tkinter** et **ttk**[cite: 3, 5].
+* **Suivi en Temps Réel :** Affichage instantané de la ligue, des équipes, du score et du temps écoulé.
+* **Recherche Dynamique :** Filtrage intelligent par équipe ou par compétition directement depuis la barre de recherche.
+* **Couverture Mondiale :** Accès aux données de nombreuses ligues internationales via API-Football.
+* **Interface Graphique (GUI) :** Design sombre (Dark Mode) moderne construit avec **Tkinter** et **ttk**.
 
 ## 🛡️ Sécurité & Robustesse
 
-* **Filtrage Instantané :** Utilisation de la méthode `trace_add` pour mettre à jour le tableau en temps réel dès la saisie de texte[cite: 5].
-* **Gestion des Requêtes :** Intégration de la bibliothèque **Requests** pour une communication fluide avec l'API externe[cite: 5].
-* **Optimisation des Données :** Stockage local temporaire des matchs pour permettre un filtrage rapide sans multiplier les appels API[cite: 5].
+* **Filtrage Instantané :** Utilisation de la méthode `trace_add` pour mettre à jour le tableau en temps réel dès la saisie de texte.
+* **Gestion des Requêtes :** Intégration de la bibliothèque **Requests** pour une communication fluide avec l'API externe.
+* **Optimisation des Données :** Stockage local temporaire des matchs pour permettre un filtrage rapide sans multiplier les appels API.
 
 ## 🚀 Installation rapide
 
