@@ -1,6 +1,7 @@
 #Copyright © 2026 Anas Boutaghroucht
 #Sous license CC BY-NC 4.0
 #Voir LICENCE pour plus d'info
+#Utilise www.api-football.com
 import tkinter as tk
 from tkinter import ttk, messagebox
 import requests
