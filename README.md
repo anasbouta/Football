@@ -1,7 +1,8 @@
-Voici une proposition de README.md structurée, professionnelle et efficace pour ton projet. Elle reprend les éléments de tes captures d'écran et les instructions que tu as partagées.
+
 
 ⚽ Football Dashboard Pro (BETA)
 Football Dashboard Pro est une application de bureau légère conçue pour suivre les scores de football en temps réel à travers de nombreuses ligues mondiales. Cette version BETA permet de filtrer rapidement les matchs et de visualiser les scores en direct.
+<img width="1110" height="740" alt="image" src="https://github.com/user-attachments/assets/f3a27da4-9da5-442d-a34c-85239748523b" />
 
 📸 Aperçu
 L'interface propose une recherche par équipe et un tableau récapitulatif incluant :
@@ -13,6 +14,9 @@ Match : Confrontation entre les deux équipes.
 Score : Résultats en temps réel.
 
 Temps : Chronomètre du match en cours.
+
+<img width="1370" height="818" alt="image" src="https://github.com/user-attachments/assets/48855a02-03f7-48de-9f86-b8ad8790548a" />
+
 
 🚀 Installation & Prérequis
 1. Clé API
