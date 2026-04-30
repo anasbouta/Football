@@ -1,7 +1,7 @@
 
 ---
 
-# ⚽ Football Dashboard Pro (BETA)
+# ⚽ Football Dashboard Pro 1.0
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
